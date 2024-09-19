@@ -1,0 +1,2 @@
+resource_group_name,location,vm_name,vm_size,host_pool_name
+RG1,australiaeast,VM1,Standard_DS1_v2,HostPool1
