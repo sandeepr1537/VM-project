@@ -1,0 +1,17 @@
+{
+  "resource_group": {
+    "name": "${var.resource_group_name}",
+    "location": "${var.location}"
+  },
+  "virtual_machines": [
+    {
+      "name": "${var.vm_name}",
+      "size": "${var.vm_size}"
+    }
+  ],
+  "host_pool": {
+    "name": "${var.host_pool_name}",
+    "location": "${var.location}",
+    "type": "Personal"
+  }
+}
